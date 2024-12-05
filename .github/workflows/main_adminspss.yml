@@ -26,7 +26,7 @@ jobs:
 
       - name: Build
         run: |
-          CI=false DISABLE_ESLINT_PLUGIN=true npm run build
+          npm run build
           cp public/Web.config build/Web.config
 
       - name: Upload artifact for deployment job
