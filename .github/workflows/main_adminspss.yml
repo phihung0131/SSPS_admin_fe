@@ -54,5 +54,5 @@ jobs:
         with:
           app-name: "adminspss"
           slot-name: "Production"
-          package: ./build # Đảm bảo deploy đúng thư mục build đã tải về
+          package: .
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A120CEB790C14C25A203C6E18511AA66 }}
