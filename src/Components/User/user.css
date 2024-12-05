@@ -1,0 +1,31 @@
+/* User.css */
+.user-info {
+    background-color: #f9f9f9; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    padding: 20px; 
+    max-width: 400px; 
+    margin: 20px auto; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    font-family: Arial, sans-serif; 
+    color: black;
+  }
+  .user-avatar {
+    width: 350px; 
+    object-fit: cover; 
+    margin-bottom: 30px; 
+    align-items: center;
+}
+  
+  .user-details {
+    font-size: 16px; 
+    line-height: 1.5; 
+  }
+  
+  .user-details p {
+    margin: 10px 0; 
+  }
+  
+  h2 {
+    margin-bottom: 35px; 
+  }
