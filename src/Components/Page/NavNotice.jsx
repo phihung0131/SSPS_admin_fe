@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import "./nav.css";
+import { IoMdNotificationsOutline } from "react-icons/io";
+
 
 function NavNotice() {
   const [numOfRequest0, setNumOfRequest0] = useState(0);
@@ -34,7 +36,7 @@ function NavNotice() {
   return (
     <li className="nav-item dropdown">
       <a className="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
-        <i className="bi bi-bell"></i>
+      <IoMdNotificationsOutline />
         <span className="badge bg-primary badge-number">{numOfRequest0}</span>
       </a>
 

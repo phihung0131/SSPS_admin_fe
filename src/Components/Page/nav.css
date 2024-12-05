@@ -125,7 +125,7 @@
     transition: 0.3s;
 }
 
-.header-nav .profile .dropdown-item i {
+.header-nav .profile .dropdown-item .icon {
     margin-right: 10px;
     font-size: 18px;
     line-height: 0;

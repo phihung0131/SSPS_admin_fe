@@ -1,5 +1,7 @@
 import React from "react";
 import profileImg from "../images/user.png";
+import { IoIosLogOut } from "react-icons/io";
+import { FaRegUserCircle } from "react-icons/fa";
 
 function NavAva() {
   return (
@@ -37,7 +39,7 @@ function NavAva() {
             className="dropdown-item d-flex align-items-center"
             style={{ color: "black" }}
           >
-            <i className="bi bi-person-circle" style={{ color: "black" }}></i>
+            <FaRegUserCircle className="icon"/>
             <span style={{ color: "black" }}>Thông tin</span>
           </a>
           <a
@@ -45,7 +47,7 @@ function NavAva() {
             className="dropdown-item d-flex align-items-center"
             style={{ color: "black" }}
           >
-            <i className="bi bi-box-arrow-right" style={{ color: "black" }}></i>
+            <IoIosLogOut className="icon" />
             <span style={{ color: "black" }}>Đăng xuất</span>
           </a>
 
